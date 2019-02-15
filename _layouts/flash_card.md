@@ -1,8 +1,4 @@
----
-layout: default
----
-
-#{{ page.term }}
+# {{ page.term }}
 
 {{ page.definition }}
 
