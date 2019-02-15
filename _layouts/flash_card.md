@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Title
+
 # {{ page.term }}
 
 {{ page.definition }}
