@@ -1,1 +1,1 @@
-# Block of Philippe Morier
+# Blog of Philippe Morier
