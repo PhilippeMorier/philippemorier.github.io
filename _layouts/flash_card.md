@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # {{ page.term }}
 
 {{ page.definition }}
