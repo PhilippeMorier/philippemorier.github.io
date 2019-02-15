@@ -6,4 +6,4 @@ description: Place to keep things.
 collections_dir: collections
 collections:
   flash_cards:
-    people: true
+    output: true
