@@ -7,3 +7,10 @@ collections_dir: collections
 collections:
   flash_cards:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "flash_cards"
+    values:
+      layout: flash_card
