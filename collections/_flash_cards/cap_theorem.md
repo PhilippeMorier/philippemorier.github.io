@@ -1,5 +1,5 @@
 ---
-term: CAP theorem
+title: CAP theorem
 definition: Consistency, Availability, Partition tolerance
 tags: distributed data store
 ---
