@@ -4,6 +4,8 @@ definition: Shared Hydrated Available Retrieved Impacted
 tags: state management ngrx
 ---
 
+State belongs to the store if it is SHARI.
+
 Shared
  — Shared state is accessed by many components and services
 
