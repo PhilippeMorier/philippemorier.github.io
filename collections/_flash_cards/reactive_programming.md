@@ -1,6 +1,6 @@
 ---
 title: Reactive Programming
-definition:
+definition: An asynchronous programming paradigm concerned with data streams and the propagation of change.
 tags: reactive programming reified transparent
 ---
 
