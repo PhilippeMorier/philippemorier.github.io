@@ -9,3 +9,4 @@ tags: rxjs state management angular redux
 - [Level up your NgRx game](https://itnext.io/level-up-your-ngrx-game-42652afc25bd)
 - [Reducing the Boilerplate with NgRx - Brandon Roberts & Mike Ryan](https://youtu.be/t3jx0EC-Y3c)
 - [Good Action Hygiene with NgRx Mike Ryan](https://youtu.be/JmnsEvoy-gY)
+- [Angular Service Layers: Redux, RxJs and Ngrx Store - When to Use a Store And Why?](https://blog.angular-university.io/angular-2-redux-ngrx-rxjs/)
