@@ -4,7 +4,8 @@ definition: Reactive Extensions For JavaScript
 tags: reactive observable
 ---
 
-[RxJS Operators - Explanation, Real World Use Cases, and Anti Patterns](https://www.youtube.com/watch?v=Dsku0F4lU3A)
+* [RxJS Operators - Explanation, Real World Use Cases, and Anti Patterns](https://www.youtube.com/watch?v=Dsku0F4lU3A)
+* [RxJS best practices in Angular](https://blog.strongbrew.io/rxjs-best-practices-in-angular/)
 
 ## exhaustMap
 
