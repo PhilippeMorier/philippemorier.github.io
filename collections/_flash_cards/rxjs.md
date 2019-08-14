@@ -7,6 +7,7 @@ tags: reactive observable
 * [RxJS Operators - Explanation, Real World Use Cases, and Anti Patterns](https://www.youtube.com/watch?v=Dsku0F4lU3A)
 * [RxJS best practices in Angular](https://blog.strongbrew.io/rxjs-best-practices-in-angular/)
 * [RxJS: Don’t Unsubscribe](https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87)
+* [Hot vs Cold Observables](https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339)
 
 ## exhaustMap
 
