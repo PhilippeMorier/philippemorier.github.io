@@ -78,20 +78,25 @@ The reason why we use Rx types like Observable, Observer, and Subscription is to
 
 # Operators
 
-## exhaustMap
+## Transformation Operators
+
+### exhaustMap
 
 Drag & drop, first subscribe needs to finish until I subscribe to next, we don't want that a second touch event e.g.
 with second finger cancels current subscription. You don't care about latest.
 
-## switchMap
+### switchMap
 
 Autocomplete, we just care about the result of the last value, therefore we unsubscribe from current observable when
 new value and subscribe to new observable
 
-## concatMap
+### concatMap
 
 Do one after the other, you care about response and their order
 
-## mergeMap
+### mergeMap
 
 You care about response but not about their order
+
+## Custom Operator
+* [Operator Creation](https://github.com/ReactiveX/rxjs/blob/master/doc/operator-creation.md)
