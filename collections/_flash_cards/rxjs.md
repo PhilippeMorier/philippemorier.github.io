@@ -8,8 +8,16 @@ tags: reactive observable
 
 > Think of RxJS as Lodash for events.
 
+> Not really according to [RXJS Evolved | Paul Taylor | Reactive 2015](https://youtu.be/QhjALubBQPg?t=1699)
+1. Lodash works on array, which aren't functions.
+2. Better comparison would be the `IEnumerable` type in C#. They are factories for iterator. I.e. you can always go back
+and re-enumarate over them.
+3. In lodash, if you use a `map` and a `filter` you create for each of them a new array. In Rx we are passing events/values
+from one operator to the next since it is a pipeline.
+
 ReactiveX combines the Observer pattern with the Iterator pattern and functional programming with collections to fill
-the need for an ideal way of managing sequences of events.
+the need for an ideal way of managing sequences of events. 
+
 
 * [RxJs](https://rxjs-dev.firebaseapp.com/guide/overview)
 * [reactive.how](https://reactive.how/)
