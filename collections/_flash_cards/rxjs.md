@@ -65,7 +65,7 @@ synchronously or asynchronously return zero to (potentially) infinite values fro
 
 An 'raw/naked' Observable without ReactiveX types would result in  rather straightforward JavaScript.
 
-```JavaScript
+```javascript
 function subscribe(subscriber) {
   const intervalId = setInterval(() => {
     subscriber.next('hi');
