@@ -84,7 +84,7 @@ unsubscribe(); // dispose the resources
 
 The reason why we use Rx types like Observable, Observer, and Subscription is to get safety (such as the Observable
  Contract) and composability with Operators.
-
+ 
 # Operators
 
 ## Transformation Operators
@@ -106,6 +106,12 @@ Do one after the other, you care about response and their order
 ### mergeMap
 
 You care about response but not about their order
+
+## Error Handling
+
+* `catchError()`
+* `retry()` 
+* `retryWhen()` 
 
 ## Custom Operator
 * [Operator Creation](https://github.com/ReactiveX/rxjs/blob/master/doc/operator-creation.md)
