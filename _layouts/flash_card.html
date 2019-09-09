@@ -7,10 +7,10 @@ layout: default
 
   <blockquote>{{ page.definition }}</blockquote>
 
-  <h2>Description</h2>
   <p>{{ page.content }}</p>
 
   <footer>
+    <h2>Tags</h2>
     {% for tag in page.tags %}
     <code>{{ tag }}</code>
     {% endfor %}
