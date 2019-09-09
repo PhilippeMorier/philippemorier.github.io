@@ -7,6 +7,7 @@ tags: e2e test
 ## Learning
 
 * [Cypress in a Nutshell](https://youtu.be/LcGHiFnBh3Y)
+* [Testing Pyramid](https://testingjavascript.com/)
 
 ## Useful commands
 
