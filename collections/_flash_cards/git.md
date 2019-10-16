@@ -26,3 +26,4 @@ tags: git vcs
   git config --global alias.ci commit
   git config --global alias.st status
   ```
+- [GIT rerere](https://git-scm.com/docs/git-rerere) (*Re*use *re*corded *re*solution of conflicted merges)
