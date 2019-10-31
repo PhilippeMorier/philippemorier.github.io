@@ -1,6 +1,5 @@
 ---
 title: Linear Algebra
-definition: 
+definition:
 tags: vector basis span determinant scalar scaling transformation matrix
 ---
-

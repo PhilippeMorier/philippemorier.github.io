@@ -14,6 +14,7 @@ Four independent dimensions of reactive programming:
 4. self observation & external observation
 
 ### See also
-* Imperative Programming
-* Declarative Programming
-* Object-oriented Pgogramming
+
+- Imperative Programming
+- Declarative Programming
+- Object-oriented Pgogramming

@@ -12,5 +12,6 @@ tags: rxjs state management angular redux
 - [Angular Service Layers: Redux, RxJs and Ngrx Store - When to Use a Store And Why?](https://blog.angular-university.io/angular-2-redux-ngrx-rxjs/)
 
 Quantum NgRx Facades - Sam Julien
+
 - Don't abstract away actions
 - Use `composeState` to compose state
