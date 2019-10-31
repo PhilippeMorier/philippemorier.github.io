@@ -8,16 +8,19 @@ tags: reactive observable
 
 > Think of RxJS as Lodash for events.
 
-> Not really according to [RXJS Evolved | Paul Taylor | Reactive 2015](https://youtu.be/QhjALubBQPg?t=1699)
+> Not really according to
+> [RXJS Evolved | Paul Taylor | Reactive 2015](https://youtu.be/QhjALubBQPg?t=1699)
 
 1. Lodash works on array, which aren't functions.
-2. Better comparison would be the `IEnumerable` type in C#. They are factories for iterator. I.e. you can always go back
-   and re-enumarate over them.
-3. In lodash, if you use a `map` and a `filter` you create for each of them a new array. In Rx we are passing events/values
-   from one operator to the next since it is a pipeline.
+2. Better comparison would be the `IEnumerable` type in C#. They are factories
+   for iterator. I.e. you can always go back and re-enumarate over them.
+3. In lodash, if you use a `map` and a `filter` you create for each of them a
+   new array. In Rx we are passing events/values from one operator to the next
+   since it is a pipeline.
 
-ReactiveX combines the Observer pattern with the Iterator pattern and functional programming with collections to fill
-the need for an ideal way of managing sequences of events.
+ReactiveX combines the Observer pattern with the Iterator pattern and functional
+programming with collections to fill the need for an ideal way of managing
+sequences of events.
 
 - [RxJs](https://rxjs-dev.firebaseapp.com/guide/overview)
 - [reactive.how](https://reactive.how/)
@@ -35,8 +38,9 @@ the need for an ideal way of managing sequences of events.
 
 # [Observable](https://rxjs-dev.firebaseapp.com/guide/observable)
 
-Observables are lazy Push collections of multiple values. An Observable is a lazily evaluated computation that can
-synchronously or asynchronously return zero to (potentially) infinite values from the time it's invoked onwards.
+Observables are lazy Push collections of multiple values. An Observable is a
+lazily evaluated computation that can synchronously or asynchronously return
+zero to (potentially) infinite values from the time it's invoked onwards.
 
 |        | SINGLE     | MULTIPLE     |
 | ------ | ---------- | ------------ |
@@ -48,21 +52,25 @@ synchronously or asynchronously return zero to (potentially) infinite values fro
 | _Pull_ | _Passive:_ produces data when requested. | _Active:_ decides when data is requested. |
 | _Push_ | _Active:_ produces data at its own pace. | _Passive:_ reacts to received data.       |
 
-> Observables are like functions with zero arguments, but generalize those to allow multiple values.
-> I.e. Observables can "return" multiple values over time (with multiple `subscriber.next(value)`).
+> Observables are like functions with zero arguments, but generalize those to
+> allow multiple values. I.e. Observables can "return" multiple values over time
+> (with multiple `subscriber.next(value)`).
 
-> Subscribing to an Observable is analogous to calling a Function.
-> Each call to `observable.subscribe()` triggers its own independent setup for that given subscriber.
+> Subscribing to an Observable is analogous to calling a Function. Each call to
+> `observable.subscribe()` triggers its own independent setup for that given
+> subscriber.
 
 > Observables are able to deliver values either synchronously or asynchronously.
 
-> In an Observable Execution, zero to infinite Next notifications may be delivered. If either an Error or Complete
-> notification is delivered, then nothing else can be delivered afterwards.
+> In an Observable Execution, zero to infinite Next notifications may be
+> delivered. If either an Error or Complete notification is delivered, then
+> nothing else can be delivered afterwards.
 
-> When you subscribe, you get back a Subscription, which represents the ongoing execution. Just call unsubscribe()
-> to cancel the execution.
+> When you subscribe, you get back a Subscription, which represents the ongoing
+> execution. Just call unsubscribe() to cancel the execution.
 
-An 'raw/naked' Observable without ReactiveX types would result in rather straightforward JavaScript.
+An 'raw/naked' Observable without ReactiveX types would result in rather
+straightforward JavaScript.
 
 ```javascript
 function subscribe(subscriber) {
@@ -81,8 +89,8 @@ const unsubscribe = subscribe({ next: x => console.log(x) });
 unsubscribe(); // dispose the resources
 ```
 
-The reason why we use Rx types like Observable, Observer, and Subscription is to get safety (such as the Observable
-Contract) and composability with Operators.
+The reason why we use Rx types like Observable, Observer, and Subscription is to
+get safety (such as the Observable Contract) and composability with Operators.
 
 # Operators
 
@@ -90,13 +98,15 @@ Contract) and composability with Operators.
 
 ### exhaustMap
 
-Drag & drop, first subscribe needs to finish until I subscribe to next, we don't want that a second touch event e.g.
-with second finger cancels current subscription. You don't care about latest.
+Drag & drop, first subscribe needs to finish until I subscribe to next, we don't
+want that a second touch event e.g. with second finger cancels current
+subscription. You don't care about latest.
 
 ### switchMap
 
-Autocomplete, we just care about the result of the last value, therefore we unsubscribe from current observable when
-new value and subscribe to new observable
+Autocomplete, we just care about the result of the last value, therefore we
+unsubscribe from current observable when new value and subscribe to new
+observable
 
 ### concatMap
 

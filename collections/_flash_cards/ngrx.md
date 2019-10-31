@@ -1,6 +1,7 @@
 ---
 title: NgRx
-definition: Set of RxJS-powered state management libraries for Angular, inspired by Redux.
+definition:
+  Set of RxJS-powered state management libraries for Angular, inspired by Redux.
 tags: rxjs state management angular redux
 ---
 

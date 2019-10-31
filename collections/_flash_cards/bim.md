@@ -4,7 +4,9 @@ definition: Building Information Modelling
 tags: method process design construction
 ---
 
-The BIM-method supports the collaboration between all stakeholders over the whole life-cycle of a building. The collaboration is supported by digital construction models which are enriched with parameters. These models
+The BIM-method supports the collaboration between all stakeholders over the
+whole life-cycle of a building. The collaboration is supported by digital
+construction models which are enriched with parameters. These models
 
 ## Sources
 

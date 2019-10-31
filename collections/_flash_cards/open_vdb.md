@@ -1,6 +1,8 @@
 ---
 title: OpenVDB
-definition: Hierarchical data structure and a large suite of tools for the efficient storage and manipulation of sparse volumetric data.
+definition:
+  Hierarchical data structure and a large suite of tools for the efficient
+  storage and manipulation of sparse volumetric data.
 tags: dynamic sparse volumetric data tree tile voxel grid
 ---
 
@@ -23,7 +25,8 @@ _B_+trees
 
 ## Buildings Blocks
 
-- Direct access bit masks: provide fast and compact direct access to a binary representation of the topology
+- Direct access bit masks: provide fast and compact direct access to a binary
+  representation of the topology
   - hierarchical topology encoding
   - fast sequential iterators
   - lossless compression
@@ -36,8 +39,10 @@ _B_+trees
 - Internal nodes
 - Root node
   - sparse and can be dynamically resized (via hash-map)
-  - bottom-up vs. top-down tree traversals via `Accessors` due to spatially coherent grid access
-  - `Accessor` are used to amortize the overhead of slow lookup into the `mRootTable` (hash-map) by means of reusing cached child nodes.
+  - bottom-up vs. top-down tree traversals via `Accessors` due to spatially
+    coherent grid access
+  - `Accessor` are used to amortize the overhead of slow lookup into the
+    `mRootTable` (hash-map) by means of reusing cached child nodes.
 
 ## Access Algorithms
 
@@ -48,17 +53,22 @@ _B_+trees
 ## Sources
 
 - [OpenVDB overview](https://www.openvdb.org/documentation/doxygen/overview.html)
-- Original Paper: [VDB: High-Resolution Sparse Volumes with Dynamic Topology](http://www.museth.org/Ken/Publications_files/Museth_TOG13.pdf)
-- Talk explaining VDB: [OpenVDB: An Open Source Data Structure and Toolkit for High-Resolution Volumes](https://youtu.be/7hUH92xwODg)
-- VDB on GPU: [Fast Fluid Simulations with Sparse Volumes on the GPU](https://www.researchgate.net/publication/325488464_Fast_Fluid_Simulations_with_Sparse_Volumes_on_the_GPU)
+- Original Paper:
+  [VDB: High-Resolution Sparse Volumes with Dynamic Topology](http://www.museth.org/Ken/Publications_files/Museth_TOG13.pdf)
+- Talk explaining VDB:
+  [OpenVDB: An Open Source Data Structure and Toolkit for High-Resolution Volumes](https://youtu.be/7hUH92xwODg)
+- VDB on GPU:
+  [Fast Fluid Simulations with Sparse Volumes on the GPU](https://www.researchgate.net/publication/325488464_Fast_Fluid_Simulations_with_Sparse_Volumes_on_the_GPU)
 
 ## Compile openVDB to WASM (attempt)
 
-Source: https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8
+Source:
+https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8
 
 ### [Boost](https://stackoverflow.com/a/51924884/3731530)
 
-Check [recommended version](https://www.openvdb.org/documentation/doxygen/dependencies.html#depDependencyTable).
+Check
+[recommended version](https://www.openvdb.org/documentation/doxygen/dependencies.html#depDependencyTable).
 
 ```bash
 # go to home folder
@@ -88,9 +98,13 @@ em++ openvdb.cc -s WASM=1 -o openvdb.js \
 - CRS: Compressed-Row-Storage
 - H-RLE: Hierarchical Run-Length Encoding
 - DB+Grid: DB-Grid with [B+Trees](https://en.wikipedia.org/wiki/B%2B_tree) → VDB
-- [Narrow-band](<https://en.wikipedia.org/wiki/Level_set_(data_structures)#Narrow_band>) [Level Sets](https://en.wikipedia.org/wiki/Level_set)
-- Dilating: Stretching or scaling (change the size but not the shape of an object)
-- [Stencil Access](https://en.wikipedia.org/wiki/Stencil_code): E.g. [Moore neighborhood](https://en.wikipedia.org/wiki/Moore_neighborhood), [Pixel connectivity](https://en.wikipedia.org/wiki/Pixel_connectivity)
+- [Narrow-band](<https://en.wikipedia.org/wiki/Level_set_(data_structures)#Narrow_band>)
+  [Level Sets](https://en.wikipedia.org/wiki/Level_set)
+- Dilating: Stretching or scaling (change the size but not the shape of an
+  object)
+- [Stencil Access](https://en.wikipedia.org/wiki/Stencil_code): E.g.
+  [Moore neighborhood](https://en.wikipedia.org/wiki/Moore_neighborhood),
+  [Pixel connectivity](https://en.wikipedia.org/wiki/Pixel_connectivity)
 - VAS: Virtual Address Space
 - TLB: Translation Look-aside Buffer
 - [Convolution](https://en.wikipedia.org/wiki/Convolution)

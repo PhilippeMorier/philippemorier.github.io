@@ -1,6 +1,8 @@
 ---
 title: State Management
-definition: State management refers to the management of the state of one or more user interface controls.
+definition:
+  State management refers to the management of the state of one or more user
+  interface controls.
 tags: state management Redux NgRx Mobx
 ---
 

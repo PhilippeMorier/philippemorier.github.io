@@ -1,6 +1,8 @@
 ---
 title: Cognitive Load
-definition: In cognitive psychology, it refers to the used amount of working memory resources.
+definition:
+  In cognitive psychology, it refers to the used amount of working memory
+  resources.
 tags: intrinsic extraneous germane
 ---
 

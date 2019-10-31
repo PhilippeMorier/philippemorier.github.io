@@ -18,7 +18,8 @@ tags: e2e test
 cy.get('.article').find('footer');
 ```
 
-From [Gatspy](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cypress/src/commands.js#L5):
+From
+[Gatspy](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cypress/src/commands.js#L5):
 
 ```javascript
 Cypress.Commands.add(`getTestElement`, (selector, options = {}) =>

@@ -1,6 +1,8 @@
 ---
 title: SOLID
-definition: Five design principles in object-oriented computer programming intended to make software designs more understandable, flexible and maintainable.
+definition:
+  Five design principles in object-oriented computer programming intended to
+  make software designs more understandable, flexible and maintainable.
 tags: code smell dry wet
 ---
 

@@ -7,7 +7,8 @@ tags: git vcs
 - [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Add auto-completion in bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
   - [git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
-  - On most Linux distributions it is already installed but maybe broken, if so run:  
+  - On most Linux distributions it is already installed but maybe broken, if so
+    run:  
     `sudo apt-get install git-core bash-completion`
 - Add branch name to shell
   - [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
@@ -26,4 +27,5 @@ tags: git vcs
   git config --global alias.ci commit
   git config --global alias.st status
   ```
-- [GIT rerere](https://git-scm.com/docs/git-rerere) (*Re*use *re*corded *re*solution of conflicted merges)
+- [GIT rerere](https://git-scm.com/docs/git-rerere) (*Re*use *re*corded
+  *re*solution of conflicted merges)
