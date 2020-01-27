@@ -12,5 +12,8 @@ tags: rxjs state management angular redux
 - [Good Action Hygiene with NgRx Mike Ryan](https://youtu.be/JmnsEvoy-gY)
 - [Angular Service Layers: Redux, RxJs and Ngrx Store - When to Use a Store And Why?](https://blog.angular-university.io/angular-2-redux-ngrx-rxjs/)
 - [Quantum NgRx Facades | Sam Julien | #AngularConnect](https://www.youtube.com/watch?v=eq8n7iuHxQo)
-  - Don't abstract away actions
-  - Use `composeState` to compose state
+  - use `createSelector(selOne, selTwo, (one, two) => one && two)` to compose
+    state
+  - Prefer duplication over the wrong abstraction. - Sandi Metz
+  - AHA: Avoid Hasty Abstractions - Kent C. Dodds
+  - [Don't abstract away actions](https://youtu.be/eq8n7iuHxQo?t=1396)
