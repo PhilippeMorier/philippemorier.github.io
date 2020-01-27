@@ -59,6 +59,7 @@ _B_+trees
   [OpenVDB: An Open Source Data Structure and Toolkit for High-Resolution Volumes](https://youtu.be/7hUH92xwODg)
 - VDB on GPU:
   [Fast Fluid Simulations with Sparse Volumes on the GPU](https://www.researchgate.net/publication/325488464_Fast_Fluid_Simulations_with_Sparse_Volumes_on_the_GPU)
+- [Raytracing Sparse Volumes with NVIDIA® GVDB in DesignWorks](https://developer.nvidia.com/sites/default/files/akamai/designworks/docs/GVDB_TechnicalTalk_Siggraph2016.pdf)
 
 ## Compile openVDB to WASM (attempt)
 
