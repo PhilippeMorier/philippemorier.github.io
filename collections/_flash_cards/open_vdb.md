@@ -110,22 +110,37 @@ em++ openvdb.cc -s WASM=1 -o openvdb.js \
 ### Install Blosc
 
 - `git clone git@github.com:Blosc/c-blosc.git`
-- `git co tags/v1.5.4`
 - `cd c-blosc/`
+- `git co tags/v1.5.4`
 - `mkdir build`
 - `cd build/`
 - `ccmake ..`
+  - install `ccmake` via `sudo apt-get install cmake-curses-gui`
+  - use `g` to generate
 - `sudo cmake --build . --target install`
 
 ### Install other [dependencies](https://www.openvdb.org/documentation/doxygen/dependencies.html) via `apt-get`
 
-e.g. `sudo apt-get install libboost-python-dev`
+Taken from
+[Installing Dependencies](https://www.openvdb.org/documentation/doxygen/dependencies.html#depInstallingDependencies):
+
+- `sudo apt-get install libilmbase-dev`
+- `sudo apt-get install libtbb-dev`
+- `sudo apt-get install libcppunit-dev`
+- `sudo apt-get install libboost-system-dev`
+- `sudo apt-get install libboost-iostreams-dev`
+- `sudo apt-get install libboost-python-dev`
+- `sudo apt-get install libboost-numpy-dev`
+- `sudo apt-get install libjemalloc-dev`
 
 ### Build ([standalone](https://www.openvdb.org/documentation/doxygen/build.html#buildBuildStandalone)) openVDP
 
+- `git clone git@github.com:AcademySoftwareFoundation/openvdb.git`
 - `mkdir build` in repo folder
 - `cd buld/`
 - `cmake ../ -DCMAKE_NO_SYSTEM_FROM_IMPORTED:BOOL=TRUE -DOPENVDB_BUILD_UNITTESTS=ON`
+
+  - Watch out for the message 'Build files have been written to ...'
 
   - It is possible to set the install folder (e.g. `/usr/include` or
     `$HOME/openvdb`) by setting `-DCMAKE_INSTALL_PREFIX=/usr/include`
@@ -138,7 +153,7 @@ e.g. `sudo apt-get install libboost-python-dev`
   - /usr/include/c++/7/cstdlib:75:15: fatal error: stdlib.h: No such file or
     directory #include_next <stdlib.h>
 
-- `make`
+- `make -j 12` // -j: amount parallel jobs (`lscpu` to check amount of cores)
 - `sudo make install`
 
 #### Run Tests
@@ -150,6 +165,16 @@ Dependencies:
 - `sudo apt-get install libjemalloc-dev`
 - `sudo apt-get install libtbb-dev`
 
+Run custom C++ test:
+
+1. Copy custom test file `TestTalus.cc` to
+   `../openvdb/openvdb/unittest/TestTalus.cc`
+2. Add `TestTalus.cc` in `CMakeLists.txt`
+3. Run specific test in `./openvdb/build/` with
+   - `clear && make && ./openvdb/unittest/vdb_test -v -t TestTalus::InternalNode_testCoordToOffset`
+
+Test log files can be found in `openvdb/build/Testing/Temporary`.
+
 Running tests:
 
 - Python & C++ tests: In `../openvdb/build/` run `make test` to run Python and
@@ -159,13 +184,6 @@ Running tests:
   - `Segmentation fault` happens and is mentioned in
     `tsc/meetings/2019-09-26.md` explaining it happens
     `during serialization of OpenVDB Point Data Grids into Houdini file formats`
-- C++ custom test:
-  1. Copy custom test file `TestTalus.cc` to `../unittest/TestTalus.cc`
-  2. Add `TestTalus.cc` in `CMakeLists.txt`
-  3. Run specific test with
-     - `clear && make && ./openvdb/unittest/vdb_test -v -t TestTalus::InternalNode_testCoordToOffset`
-
-Test log files can be found in `openvdb/build/Testing/Temporary`.
 
 ## Glossary
 
