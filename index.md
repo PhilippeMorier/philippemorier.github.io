@@ -1,1 +1,1 @@
-# Blog of Philippe Morier
+### [Flash cards](./flash_cards/)
