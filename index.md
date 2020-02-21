@@ -1,1 +1,1 @@
-### [Flash cards](./flash_cards/)
+### [Flash cards](./flash_cards)
