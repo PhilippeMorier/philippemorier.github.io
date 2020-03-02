@@ -8,6 +8,8 @@ tags: e2e test
 
 - [Cypress in a Nutshell](https://youtu.be/LcGHiFnBh3Y)
 - [Testing Pyramid](https://testingjavascript.com/)
+- [Case Studies](https://cypress.io/case-studies/)
+- [Case Studies Slides](https://cypress.slides.com/cypress-io/)
 
 ## Useful commands
 
