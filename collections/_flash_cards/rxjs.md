@@ -35,6 +35,8 @@ sequences of events.
 - [RxJS: Don’t Unsubscribe](https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87)
 - [Hot vs Cold Observables](https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339)
 - [Testing RxJS Code with Marble Diagrams](https://github.com/ReactiveX/rxjs/blob/master/docs_app/content/guide/testing/marble-testing.md)
+- [Webinar: Observables For All](https://thinkster.io/tutorials/webinar-observables-for-all)
+- [RxJS Live](https://www.youtube.com/channel/UCmvhqGbbqkhJ63V3g-l-5Gg/videos)
 
 # [Observable](https://rxjs-dev.firebaseapp.com/guide/observable)
 
