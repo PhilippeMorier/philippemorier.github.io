@@ -15,8 +15,8 @@ Four independent dimensions of reactive programming:
 3. reified & transparent
 4. self observation & external observation
 
-### See also
+### See other [Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
 
 - Imperative Programming
 - Declarative Programming
-- Object-oriented Pgogramming
+- Object-oriented Programming

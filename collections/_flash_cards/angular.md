@@ -11,5 +11,5 @@ tags: angular framework typescript
   (React)
 - [Faster Angular Applications - Part 1. On Push Change Detection and Immutabilit](https://blog.mgechev.com/2017/11/11/faster-angular-applications-onpush-change-detection-immutable-part-1/)
 - [immer](https://github.com/immerjs/immer)
-- [How Angular works | Kara Erickson](https://youtu.be/S0o-4yc2n-8)
-- [Deep Dive into the Angular Compiler | Alex Rickabaugh](https://youtu.be/anphffaCZrQ)
+- [How Angular works - Kara Erickson](https://youtu.be/S0o-4yc2n-8)
+- [Deep Dive into the Angular Compiler - Alex Rickabaugh](https://youtu.be/anphffaCZrQ)

@@ -6,8 +6,8 @@ definition:
 tags: code smell dry wet
 ---
 
-- *S*ingle Responsibility Principle (one reason to change)
-- *O*pen/Closed Principle
-- *L*iskov Substition Principle
-- *I*nterface Segregation Principle
-- *D*ependency Inversion Principle
+- **S**ingle Responsibility Principle (one reason to change)
+- **O**pen/Closed Principle
+- **L**iskov Substition Principle
+- **I**nterface Segregation Principle
+- **D**ependency Inversion Principle

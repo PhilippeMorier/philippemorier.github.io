@@ -6,7 +6,7 @@ tags: user centric model response animation idle load
 
 ## RAIL
 
-- Response: process events in under 50ms
-- Animation: produce a frame in 10ms
-- Idle: maximize idle time
-- Load: deliver content and become interactive in under 5 seconds
+- **R**esponse: process events in under 50ms
+- **A**nimation: produce a frame in 10ms
+- **I**dle: maximize idle time
+- **L**oad: deliver content and become interactive in under 5 seconds
