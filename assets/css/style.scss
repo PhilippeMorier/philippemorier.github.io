@@ -1,0 +1,14 @@
+---
+---
+
+@import '{{ site.theme }}';
+
+body {
+  // GitHub Dark (Stylus Theme)
+  background-image: url(https://camo.githubusercontent.com/5b8e4cd1a5ce69b6affa17ebd8e4aee00c147618/68747470733a2f2f7374796c6973687468656d65732e6769746875622e696f2f4769744875622d4461726b2f696d616765732f6261636b67726f756e64732f62672d63726f737368617463682e706e67);
+}
+
+.wrapper {
+  background-color: #181818;
+  border: 1px solid #434343;
+}

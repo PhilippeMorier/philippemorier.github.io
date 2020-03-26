@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
 
 title: Philippe Morier
 description: Place to keep things.
@@ -10,7 +10,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "flash_cards"
+      path: ''
+      type: 'flash_cards'
     values:
       layout: flash_card
