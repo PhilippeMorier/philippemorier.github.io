@@ -8,7 +8,58 @@ body {
   background-image: url(https://camo.githubusercontent.com/5b8e4cd1a5ce69b6affa17ebd8e4aee00c147618/68747470733a2f2f7374796c6973687468656d65732e6769746875622e696f2f4769744875622d4461726b2f696d616765732f6261636b67726f756e64732f62672d63726f737368617463682e706e67);
 }
 
+.fork {
+  margin-right: 6px;
+}
+
+#header nav li a {
+  margin-top: 9px;
+  padding: 1px 30px;
+}
+
 .wrapper {
-  background-color: #181818;
+  background-color: #2a2a29;
   border: 1px solid #434343;
+  border-radius: 5px;
+
+  section {
+    padding: 0;
+    margin-top: 80px;
+
+    #title {
+      margin: 0;
+      padding: 0;
+
+      .credits {
+        font-size: 9px;
+        margin-top: -2px;
+
+        position: absolute;
+        bottom: -17px;
+        right: 5px;
+      }
+    }
+  }
+
+  blockquote {
+    background-color: #323232;
+  }
+}
+
+#Posts {
+  article {
+    margin-top: 20px;
+  }
+
+  .post-excerpt {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      margin-right: 10px;
+      border-radius: 10px;
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
 }

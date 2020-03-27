@@ -1,0 +1,24 @@
+---
+layout: default
+title: Flash-Cards
+---
+
+<h1>{{ page.title }}</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for flash_card in site.flash_cards -%}
+    <tr>
+      <td><a href="{{ flash_card.url}}">{{ flash_card.title }}</a></td>
+      <td>{{ flash_card.definition }}</td>
+    </tr>
+    {% endfor -%}
+  </tbody>
+</table>
