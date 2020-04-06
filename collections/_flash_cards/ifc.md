@@ -16,3 +16,4 @@ tags: BIM buildingSMART
       [Issue](https://github.com/stepcode/stepcode/issues/379#issuecomment-440076835)
     - `make`
     - `make install # optional`
+- [Developer’s Guide - WebAssembly](https://webassembly.org/getting-started/developers-guide/)
