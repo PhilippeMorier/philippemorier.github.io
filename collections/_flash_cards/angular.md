@@ -13,3 +13,5 @@ tags: angular framework typescript
 - [immer](https://github.com/immerjs/immer)
 - [How Angular works - Kara Erickson](https://youtu.be/S0o-4yc2n-8)
 - [Deep Dive into the Angular Compiler - Alex Rickabaugh](https://youtu.be/anphffaCZrQ)
+- [Angular and Bazel](https://bazel.angular.io/)
+- [Angular Next Version Documentation](https://next.angular.io/)
