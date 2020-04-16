@@ -31,3 +31,8 @@ tags: procedural generation tree model realistic creation rendering
 4. Open `~/.config/blender/2.82/scripts/addons/ch_blender` in IDE
 5. Make changes in IDE
 6. Swap to Blender and hit `F8` to refresh the add-ons
+
+#### Other Blender Plugin based on Weber & Penn
+
+[Sapling Tree Gen](https://docs.blender.org/manual/en/latest/addons/add_curve/sapling.html)
+[abpy/improved-sapling-tree-generator](https://github.com/abpy/improved-sapling-tree-generator)
