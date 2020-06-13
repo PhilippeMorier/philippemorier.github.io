@@ -6,7 +6,7 @@ definition:
 tags: law diffusion innovation Everett Rogers
 ---
 
-![Diffusion of innovations](https://en.wikipedia.org/wiki/Diffusion_of_innovations#/media/File:Diffusion_of_ideas.svg)
+![Diffusion of innovations](https://upload.wikimedia.org/wikipedia/en/archive/4/45/20110714211709%21DiffusionOfInnovation.png)
 
 - Innovators
 - Early adaptors
