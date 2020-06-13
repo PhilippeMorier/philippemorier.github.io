@@ -1,6 +1,6 @@
 ---
 title: INVEST
-definition: independent, negotiable, valuable, estimable, small, testable PBIs
+definition: Independent, negotiable, valuable, estimable, small, testable PBIs
 tags: goal criteria smarter
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Linear Algebra
-definition:
+definition: Essence of linear algebra as a visual series
 tags: vector basis span determinant scalar scaling transformation matrix
 ---
 

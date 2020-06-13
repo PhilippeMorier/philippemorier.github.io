@@ -1,6 +1,6 @@
 ---
 title: SMART
-definition: specific, measurable, achievable, relevant, time bound goals
+definition: Specific, measurable, achievable, relevant & time bound goals
 tags: goal criteria smarter
 ---
 
