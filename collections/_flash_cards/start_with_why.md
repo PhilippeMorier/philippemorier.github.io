@@ -21,6 +21,18 @@ tags: what how why golden circle
 
 > People don't buy what you do. People buy why you do it.
 
+![The Biggest Challenge Is Success](https://paulminors.com/wp-content/uploads/2014/10/The-Split.png)
+
+> The School Bus Test is a metaphor that asks, "If a founder or leader of an
+> organization were to be hit by a school bus, would the organization continue
+> to thrive at the same pace without them at the helm?" So many companies are
+> built on the force of a single personality, that if the leader or founder is
+> gone the company can be highly disrupted and even falter. The question is,
+> when the leader or founder departures, how well-prepared is an organization to
+> find effective ways to keep the founding vision alive indefinitely?
+
+![https://studyo5.blogspot.com/2011/12/start-with-why-discover-your-why.html](https://4.bp.blogspot.com/-GLht8_VTSlA/TufLurLMokI/AAAAAAAABaA/5A3HUMn3Pyo/s1600/Screen%2BShot%2B2011-12-13%2Bat%2B23.47.14.png)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4ZoJKF_VuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [Start with why - how great leaders inspire action - Simon Sinek - TEDxPugetSound](https://youtu.be/u4ZoJKF_VuA)
