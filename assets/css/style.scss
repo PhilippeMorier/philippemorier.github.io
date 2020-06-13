@@ -63,3 +63,20 @@ body {
     }
   }
 }
+
+@media print, screen and (max-width: 480px) {
+  #header nav {
+    display: block;
+
+    li {
+      .fork {
+        line-height: 80px;
+      }
+
+      a {
+        margin-top: 20px;
+        padding: 1px 10px;
+      }
+    }
+  }
+}
