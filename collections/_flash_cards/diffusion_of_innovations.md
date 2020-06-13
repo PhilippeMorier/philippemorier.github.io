@@ -1,6 +1,8 @@
 ---
 title: Diffusion of innovations
-definition: Theory that seeks to explain how, why, and at what rate new ideas and technology spread.
+definition:
+  Theory that seeks to explain how, why, and at what rate new ideas and
+  technology spread.
 tags: law diffusion innovation Everett Rogers
 ---
 
@@ -10,4 +12,4 @@ tags: law diffusion innovation Everett Rogers
 - Early adaptors
 - Early majority
 - Late majority
-- Laggards 
+- Laggards
