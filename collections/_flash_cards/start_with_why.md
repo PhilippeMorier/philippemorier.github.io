@@ -19,6 +19,8 @@ tags: what how why golden circle
 > WHY is just a belief (values), HOWs are the actions we take to realize that
 > belief, and WHATs are the results of those actions.
 
+> People don't buy what you do. People buy why you do it.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4ZoJKF_VuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [Start with why - how great leaders inspire action - Simon Sinek - TEDxPugetSound](https://youtu.be/u4ZoJKF_VuA)
