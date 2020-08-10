@@ -13,4 +13,5 @@ tags: usercss styles css themes skins custom
 - [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
 - [Google Dark Search](https://github.com/hyperfekt/google-dark/)
 - [jira - autodark](https://github.com/usercss/autodark)
+- [Stylus-DeepDark](https://github.com/RaitaroH/Stylus-DeepDark)
 - [Wikipedia-Dark](https://github.com/StylishThemes/)
