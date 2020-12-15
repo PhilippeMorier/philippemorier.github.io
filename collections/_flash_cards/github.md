@@ -11,3 +11,4 @@ tags: git vcs
   [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
   - Install
     [user style](https://raw.githubusercontent.com/StylishThemes/GitHub-Dark/master/github-dark.user.css)
+- [PR File Tree](https://github.com/berzniz/github_pr_tree)
