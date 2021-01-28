@@ -15,3 +15,4 @@ tags: angular framework typescript
 - [Deep Dive into the Angular Compiler - Alex Rickabaugh](https://youtu.be/anphffaCZrQ)
 - [Angular and Bazel](https://bazel.angular.io/)
 - [Angular Next Version Documentation](https://next.angular.io/)
+- [The Last Guide For Angular Change Detection You'll Ever Need](https://indepth.dev/posts/1305/the-last-guide-for-angular-change-detection-youll-ever-need)
