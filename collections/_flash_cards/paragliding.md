@@ -83,6 +83,11 @@ tags: glider aircraft flying parachute
 
 ## Flight Practice
 
+- [Atmospheric pressure (QFE, QFF, QNH)](https://www.meteoswiss.admin.ch/home/weather/wetterbegriffe/atmospheric-pressure-qfe-qff-qnh.html)
+- [Digital Glider Map](https://www.swisstopo.admin.ch/en/geodata/aero/glider.html)
+- [DABS - Daily Airspace Bulletin Switzerland](https://www.skybriefing.com/de/dabs)
+- [NOTAM - Notice to Airmen](https://de.wikipedia.org/wiki/NOTAM)
+
 - [Training Check List](https://www.shv-fsvl.ch/fileadmin/files/redakteure/Allgemein/Ausbildung/Flugschulen_SHV/Kommentar_Kontrollblatt_DE.pdf)
 - [5-point-check](https://de.wikipedia.org/wiki/5-Punkte-Check)
 - [3-phase-start](http://www.x-dreamfly.ch/wp-content/uploads/2017/05/Der-Drei-Phasen-Start.pdf)
