@@ -34,14 +34,77 @@ tags: glider aircraft flying parachute
 #### Form/Shape
 
 - _Cumulus_ (Anhäufung)
-- _Stratus_ (ausdehnen, ausbreiten)
-- _Cirrus_ ()
+- _Stratus_ (ausdehnen, ausbreiten, Schicht)
+- _Cirrus_ (Haarlocke)
 
-#### Level
+#### Level/Height
 
 - Cirro (high)
 - Alto (medium)
 - Strato (low)
+
+#### [Main cloud types](https://www.meteoschweiz.admin.ch/home/wetter/wetterbegriffe/wolken.html)
+
+1. Cirrus (Ci)
+1. Cirrocumulus (Cc)
+1. Cirrostratus (Cs)
+   - Halo possible
+
+No self-schadow
+
+1. Altocumulus (Ac)
+1. Altostratus (As)
+   - No Halo
+1. Nimbostratus (Ns)
+1. Stratocumulus (Sc)
+1. Stratus (St)
+1. Cumulus (Cu)
+1. Cumulonimbus (Cb)
+   - virga (Zweig): precipitation which doesn't touch ground
+   - incus (Amboss)
+
+#### [Beobachtungshandbuch](https://www.meteoschweiz.admin.ch/content/dam/meteoswiss/de/Mess-und-Prognosesysteme/doc/Beobachtungshandbuch.pdf)
+
+##### Chapter 6.1
+
+> Warme Luftmassen können mehr Feuchtigkeit (Wasseranteile) als kalte
+> Luftmassen.
+
+> Beobachtet man an einem kalten Wintertag draussen seinen Atem, stellt man
+> manchmal fest, dass die ausgeatmete Luft sichtbar wird. Das gasförmige Wasser
+> in der Atemluft kondensiert zu kleinen Wassertröpfchen, weil sich die
+> ausgeatmete Luft in der Umgebungsluft soweit abkühlt, dass sie nicht mehr die
+> gleiche Menge Wasser in gasförmigem Zustand behalten kann. Kalte Luft kann
+> weniger gasförmiges Wasser behalten als warme Luft. Wenn die Umgebungsluft
+> nicht genügend kalt ist, kommt es nicht zur Kondensation des gasförmigen
+> Wassers. Der Atem bleibt unsichtbar. Ähnlich verhält es sich bei der
+> Wolkenbildung: Aufsteigende Luft kühlt sich ab, und ein Teil des gasförmigen
+> Wassers kondensiert zu winzig kleinen sichtbaren Wassertröpfchen, die bei
+> entsprechenden Temperaturen zu Eiskristallen gefrieren. Es entstehen Wolken
+> aus Wassertröpfchen oder Eiskristallen.
+
+Three ways how cloud form
+
+1. thermal (sun warms up the air and therefore lets it rise)
+2. orographic (due height structure of earth air gets pushed up)
+3. frontal (warm & cold front)
+
+Cloud base: bottom of the cloud where air cooled down enough so that humidity is
+100% and water condenses and therefore first droplets start to build.
+
+Hydrometeore
+
+- [Virga](<https://de.wikipedia.org/wiki/Virga_(Wolke)>)
+
+Photometeore
+
+- [Corona](<https://de.wikipedia.org/wiki/Korona_(atmosph%C3%A4rische_Optik)>)
+- [Irisieren](https://de.wikipedia.org/wiki/Irisierende_Wolke)
+
+#### Width of a cloud
+
+- 1 degree = small finger of outstretched arm
+- 5 degree = fore, middle & ring finger
 
 ### Wind
 
@@ -87,6 +150,7 @@ tags: glider aircraft flying parachute
 - [Digital Glider Map](https://www.swisstopo.admin.ch/en/geodata/aero/glider.html)
 - [DABS - Daily Airspace Bulletin Switzerland](https://www.skybriefing.com/de/dabs)
 - [NOTAM - Notice to Airmen](https://de.wikipedia.org/wiki/NOTAM)
+- [Wetterbegriffe](https://www.meteoschweiz.admin.ch/home/wetter/wetterbegriffe.html)
 
 - [Training Check List](https://www.shv-fsvl.ch/fileadmin/files/redakteure/Allgemein/Ausbildung/Flugschulen_SHV/Kommentar_Kontrollblatt_DE.pdf)
 - [5-point-check](https://de.wikipedia.org/wiki/5-Punkte-Check)
