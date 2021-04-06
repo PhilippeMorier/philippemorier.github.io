@@ -25,11 +25,27 @@ tags: glider aircraft flying parachute
 
 ## Meteorology
 
+- [Troposphere](https://en.wikipedia.org/wiki/Troposphere) (tropos (meaning
+  "turn, turn toward, change") and sphere (as in the Earth))
+  - Tropopause
+  - Isotherm
+  - [Inversion](<https://en.wikipedia.org/wiki/Inversion_(meteorology)>)
+  - [Taupunkt](https://de.wikipedia.org/wiki/Taupunkt#Meteorologie)
+  - Adiabatischer Temperaturgradient (°C/m)
+    - [Warum nimmt die Temperatur mit der Höhe ab?](https://www.meteoschweiz.admin.ch/home/wetter/wetterbegriffe/temperaturabnahme-in-der-hoehe.html)
+    - [Treibhauseffekt](https://de.wikipedia.org/wiki/Treibhauseffekt)
+      (kurzwellige & langwellige Strahlungen)
+      - [natürlicher Treibhauseffekt](https://www.youtube.com/watch?v=sg9EhvQiDwQ)
+        ![natürlicher Treibhauseffekt](https://i.ytimg.com/vi/sg9EhvQiDwQ/maxresdefault.jpg)
+  - [Passat](<https://de.wikipedia.org/wiki/Passat_(Windsystem)>)
+  - [Jetstream](https://de.wikipedia.org/wiki/Jetstream)
+
 ### Clouds
 
 [Level][form]
 
 ![Clouds Atlas](https://upload.wikimedia.org/wikipedia/commons/b/bf/Clouds_Atlas2.png 'Cloud Atlas')
+![Cloud Identification Guide](https://cloudatlas.wmo.int/images/cloud_identification_guide.png 'Cloud Atlas')
 
 #### Form/Shape
 
@@ -45,21 +61,23 @@ tags: glider aircraft flying parachute
 
 #### [Main cloud types](https://www.meteoschweiz.admin.ch/home/wetter/wetterbegriffe/wolken.html)
 
-1. Cirrus (Ci)
-1. Cirrocumulus (Cc)
-1. Cirrostratus (Cs)
+[Clouds Genera](https://cloudatlas.wmo.int/en/clouds-genera.html)
+
+1. Cirrus (Ci, unterteile Schichtwolke)
+1. Cirrocumulus (Cc, unterteile Schichtwolke)
+1. Cirrostratus (Cs, Schichtwolke)
    - Halo possible
 
 No self-schadow
 
-1. Altocumulus (Ac)
-1. Altostratus (As)
+1. Altocumulus (Ac, unterteile Schichtwolke)
+1. Altostratus (As, Schichtwolke)
    - No Halo
-1. Nimbostratus (Ns)
-1. Stratocumulus (Sc)
-1. Stratus (St)
-1. Cumulus (Cu)
-1. Cumulonimbus (Cb)
+1. Nimbostratus (Ns, Schichtwolke)
+1. Stratocumulus (Sc, unterteile Schichtwolke)
+1. Stratus (St, Schichtwolke)
+1. Cumulus (Cu, Quellwolke)
+1. Cumulonimbus (Cb, Quellwolke)
    - virga (Zweig): precipitation which doesn't touch ground
    - incus (Amboss)
 
