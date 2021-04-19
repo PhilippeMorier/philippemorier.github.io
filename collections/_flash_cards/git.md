@@ -29,3 +29,6 @@ tags: git vcs
   ```
 - [GIT rerere](https://git-scm.com/docs/git-rerere) (*Re*use *re*corded
   *re*solution of conflicted merges)
+- [GIT push --force-with-lease](https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-with-lease)
+- [GIT rebase --interactive](https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt---interactive)
+- [Pro Git](https://git-scm.com/book/en/v2) (book)
