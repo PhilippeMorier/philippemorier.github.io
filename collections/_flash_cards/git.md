@@ -26,6 +26,7 @@ tags: git vcs
   git config --global alias.br branch
   git config --global alias.ci commit
   git config --global alias.st status
+  git config --global alias.sr "log --all --oneline -S"
   ```
 - [GIT rerere](https://git-scm.com/docs/git-rerere) (*Re*use *re*corded
   *re*solution of conflicted merges)
