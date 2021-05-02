@@ -8,14 +8,15 @@ tags: glider aircraft flying parachute
 
 - [Aerodynamics](#aerodynamics)
 - [Meteorology](#meteorology)
+  - [Air](#air)
   - [Clouds](#clouds)
-    - [Form/Shape](#form-shape)
-    - [Level](#level)
+    - [Form/Shape](#formshape)
+    - [Level/Height](#levelheight)
   - [Wind](#wind)
     - [Coriolis force](#coriolis-force)
     - [Thermals](#thermals)
     - [Thunderstorm](#thunderstorm)
-- [Flight Training](#flight-training)
+- [Flight Practice](#flight-practice)
 - [Law](#law)
 - [Material Science](#material-science)
 - [Flight Practice](#flight-practice)
@@ -39,6 +40,29 @@ tags: glider aircraft flying parachute
         ![natürlicher Treibhauseffekt](https://i.ytimg.com/vi/sg9EhvQiDwQ/maxresdefault.jpg)
   - [Passat](<https://de.wikipedia.org/wiki/Passat_(Windsystem)>)
   - [Jetstream](https://de.wikipedia.org/wiki/Jetstream)
+
+### Air
+
+- Pressure is higher the closer the air is to the earth/bottom
+- Air expands when heated up. Therefore,
+  - density of colder air is higher than of warmer air
+  - warmer air raises up whereas colder air sinks
+- Heat is given to surrounding when steam condenses to water or when water
+  freezes into ice
+- Heat is taken from the surrounding when ice melts to water or when water
+  evaporates to steam
+- air humidity
+  - absolute is in g/m³
+  - relative is in % (proportion of absolute and maximal humidity)
+- Temperature gradient tells how much the air changes its temperature when
+  raising resp. sinking
+  - dry adiabatic: 1°C/100m (heat up when sinking = cooling down when raising,
+    rel. humidity < 100%)
+  - humid adiabatic 0.6°C/100m (when raising), 1 °C/100m when sinking, rel.
+    humidity > 100%)
+    - 0.6 is due to the fact that rel. humidity > 100% and therefore steam
+      condenses (at the dew point) which releases heat to its to surrounding
+- labile & stable layers
 
 ### Clouds
 
@@ -118,6 +142,8 @@ Photometeore
 
 - [Corona](<https://de.wikipedia.org/wiki/Korona_(atmosph%C3%A4rische_Optik)>)
 - [Irisieren](https://de.wikipedia.org/wiki/Irisierende_Wolke)
+
+  8.1.3
 
 #### Width of a cloud
 
