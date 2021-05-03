@@ -40,6 +40,10 @@ tags: glider aircraft flying parachute
         ![natürlicher Treibhauseffekt](https://i.ytimg.com/vi/sg9EhvQiDwQ/maxresdefault.jpg)
   - [Passat](<https://de.wikipedia.org/wiki/Passat_(Windsystem)>)
   - [Jetstream](https://de.wikipedia.org/wiki/Jetstream)
+  - [Azorenhoch](https://de.wikipedia.org/wiki/Azorenhoch)
+  - [Islandtief](https://de.wikipedia.org/wiki/Islandtief)
+    - [Das Wetter – kurz erklärt in 5 Schritten](https://www.daserste.de/information/reportage-dokumentation/unser-wetter/index.html)
+  - [Innertropische Konvergenzzone](https://de.wikipedia.org/wiki/Innertropische_Konvergenzzone)
 
 ### Air
 
