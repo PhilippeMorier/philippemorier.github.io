@@ -40,6 +40,7 @@ tags: glider aircraft flying parachute
         ![natürlicher Treibhauseffekt](https://i.ytimg.com/vi/sg9EhvQiDwQ/maxresdefault.jpg)
   - [Passat](<https://de.wikipedia.org/wiki/Passat_(Windsystem)>)
   - [Jetstream](https://de.wikipedia.org/wiki/Jetstream)
+    - [What is the jet stream and how does it affect the weather?](https://youtu.be/Lg91eowtfbw)
   - [Hoch & Tiefs](https://www.daserste.de/information/reportage-dokumentation/unser-wetter/videos/extra-wo-unser-wetter-entsteht-hochs-tiefs-100.html)
     - [Das Wetter – kurz erklärt in 5 Schritten](https://www.daserste.de/information/reportage-dokumentation/unser-wetter/index.html)
     - [Azorenhoch](https://de.wikipedia.org/wiki/Azorenhoch)
@@ -66,8 +67,13 @@ tags: glider aircraft flying parachute
   - humid adiabatic 0.6°C/100m (when raising), 1 °C/100m when sinking, rel.
     humidity > 100%)
     - 0.6 is due to the fact that rel. humidity > 100% and therefore steam
-      condenses (at the dew point) which releases heat to its to surrounding
+      condenses (at the dew point) which releases heat to its surrounding
 - labile & stable layers
+- advection: horizontal transport of some property (e.g. heat, humidity) of the
+  atmosphere
+- convection: vertical transport (vertical advection)
+- [temperature inversion](https://youtu.be/Dk9VHHFUbqo): Usually higher air is
+  colder than lower air. If warmer air is above colder air, it is an inversion.
 
 ### Clouds
 
@@ -164,12 +170,24 @@ Photometeore
 
 #### Coriolis force
 
-- Documentary:
-  [Orbit: Earth Extraordinary](https://www.documentarymania.com/player.php?title=Orbit%3A+Earth+Extraordinary+Journey+July+to+December)
+- [Orbit: Earth Extraordinary](https://www.documentarymania.com/player.php?title=Orbit%3A+Earth+Extraordinary+Journey+July+to+December)
+- [The Coriolis effect & winds](https://youtu.be/PDEcAxfSYaI)
 
 #### Thermals
 
 #### Thunderstorm
+
+### Meteo Briefing
+
+- Danger/Reason why NOT to fly
+  - **G**ewitter
+  - **W**ind
+  - **F**öhn
+  - **F**ronten
+- [Windy](https://www.windy.com/)
+- [Burnair.ch - wertvolle Links](https://www.burnair.ch/aktuell/wertvolle-links/)
+- [Meteo Centrale - Föhn & Bise](http://www.meteocentrale.ch/de/wetter/foehn-und-bise/foehn.html)
+- [Emagramm](https://www.meteoschweiz.admin.ch/home/mess-und-prognosesysteme/atmosphaere/radiosondierung.html)
 
 ## Law
 
