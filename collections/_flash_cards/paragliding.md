@@ -46,6 +46,12 @@ tags: glider aircraft flying parachute
     - [Azorenhoch](https://de.wikipedia.org/wiki/Azorenhoch)
     - [Islandtief](https://de.wikipedia.org/wiki/Islandtief)
   - [Innertropische Konvergenzzone](https://de.wikipedia.org/wiki/Innertropische_Konvergenzzone)
+  - SwissTopo
+    - https://shop.swisstopo.admin.ch/en/products/free_geodata
+    - https://www.swisstopo.admin.ch/de/home/meta/medieninformationen.detail.news.html/swisstopo-internet/news2021/news_release/20210301.html
+  - https://paraglidingearth.com/
+  - https://www.dwd.de/DE/leistungen/opendata/opendata.html
+    - https://opendata.dwd.de/
 
 ### Air
 
@@ -188,8 +194,28 @@ Photometeore
 - [Burnair.ch - wertvolle Links](https://www.burnair.ch/aktuell/wertvolle-links/)
 - [Meteo Centrale - Föhn & Bise](http://www.meteocentrale.ch/de/wetter/foehn-und-bise/foehn.html)
 - [Emagramm](https://www.meteoschweiz.admin.ch/home/mess-und-prognosesysteme/atmosphaere/radiosondierung.html)
+  - [Explanation](http://montagsflieger.ch/wp/wp-content/uploads/2017/04/Emagramm-final-2.pdf)
 
 ## Law
+
+- DABS (Daily Airspace Bulletin Switzerland):
+  [today](https://www.skybriefing.com/o/dabs?today)
+  [tomorrow](https://www.skybriefing.com/o/dabs?tomorrow)
+- NOTAM (Notice to Air Man)
+- [Segelflugkart](https://map.geo.admin.ch/?layers=ch.bazl.segelflugkarte&topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-farbe&X=151325.00&Y=657950.00&zoom=2)
+  - [Legend/Symbols](https://api.geo.admin.ch/static/images/legends/ch.bazl.segelflugkarte_de_big.pdf)
+- [SHV Luftraumbroschüre 2021](https://www.shv-fsvl.ch/fileadmin/files/redakteure/Allgemein/Sicherheit/Luftraum/Luftraumbroschuere_2021.pdf)
+- [ICAO Airspace classes] (A - G)
+  - CTR (Controlled Traffic Region) - Kontrollzone
+  - TMA (Terminal Manoeuvring Area) - Nahverkehrsbereich
+  - AWY (Airway) - Luftstrassen
+  - IFR (Instrument Flight Rules) - Instrumentenflug
+  - VFR (Visual Flight Rules) - Sichtflug
+  - LS = Switzerland according to
+    [ICAO Code](https://en.wikipedia.org/wiki/List_of_airports_by_ICAO_code:_L#LS_%E2%80%93_Switzerland)
+  - LS-D (Danger) - Gefahrengebiete
+  - LS-R (Restricted) - Flug-/Luftbeschränkungsgebiete
+  - LS-P (Prohibited) - Sperrgebiete/Flugverbotszonen
 
 ## Material Science
 
@@ -210,6 +236,7 @@ Photometeore
   paraglider in its unbraked state.
 - [Aufhängehöhe](https://www.dhv.de/fileadmin/user_upload/monatsordner/2004-06/Ausbildung/VideosKarl/Journal/Tipps_zur_Gurteugwahl.pdf)
   is the height (cm) measured from the carabiner to the seating area
+- [EN Certification Test](https://youtu.be/X-8FDUHmFgc)
 
 ## Flight Practice
 
@@ -238,3 +265,14 @@ Photometeore
 
 - http://skynomad.com/paragliding_articles.htm
 - https://www.papillon.de/fliegerhandbuch-paragliding-today.html
+
+## App
+
+- Foehn index
+- Visual Observations
+- Wind speed & gust
+- Humidity 10min
+- Pressure
+- Aviation
+  - obstacles
+  - Airspaces (CTR, TMA)
