@@ -198,6 +198,21 @@ Photometeore
 
 ## Law
 
+| Klasse | max. Höhe                                         | Aufsicht       | Einflug         | Wolkenabstand  | Sicht      | Flugart   |
+| ------ | ------------------------------------------------- | -------------- | --------------- | -------------- | ---------- | --------- |
+| C      |                                                   | kontrolliert   | Freigabe & Funk | ↔︎1.5km ↕︎300m | 8km        | VFR & IFR |
+| D      |                                                   | kontrolliert   | Freigabe & Funk |                |            | VFR & IFR |
+| E      | FL100 (3050m)¹ / FL130(3950m)²ª / FL150 (4550m)²ᵇ | kontrolliert   | frei            | ↔︎1.5km ↕︎300m | 5kmᴬ/ 8kmᴮ | VFR & IFR |
+| G      | 600m                                              | unkontrolliert | frei            | ↔︎1.5km ↕︎300m | 5km        | VFR & IFR |
+| G      | 300m                                              | unkontrolliert | frei            | keine          | 1.5km      | VFR       |
+
+1] Jura/Mittelland  
+2] Alpenraum  
+a] MIL ON  
+b] MIL OFF  
+A] unterhalb FL100  
+B] oberhalb FL100
+
 - DABS (Daily Airspace Bulletin Switzerland):
   [today](https://www.skybriefing.com/o/dabs?today)
   [tomorrow](https://www.skybriefing.com/o/dabs?tomorrow)
@@ -205,9 +220,12 @@ Photometeore
 - [Segelflugkart](https://map.geo.admin.ch/?layers=ch.bazl.segelflugkarte&topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-farbe&X=151325.00&Y=657950.00&zoom=2)
   - [Legend/Symbols](https://api.geo.admin.ch/static/images/legends/ch.bazl.segelflugkarte_de_big.pdf)
 - [SHV Luftraumbroschüre 2021](https://www.shv-fsvl.ch/fileadmin/files/redakteure/Allgemein/Sicherheit/Luftraum/Luftraumbroschuere_2021.pdf)
-- [ICAO Airspace classes] (A - G)
+- [ATC](https://en.wikipedia.org/wiki/Air_traffic_control) (Air Traffic Control)
+- [ICAO Airspace classes](https://en.wikipedia.org/wiki/Airspace_class) (A - G)
   - CTR (Controlled Traffic Region) - Kontrollzone
   - TMA (Terminal Manoeuvring Area) - Nahverkehrsbereich
+  - MIL ON (Militärflugdienstzeiten: Mo-Fr 7:30-12:05 & 13:15-17:05 or NOTAM)
+  - MIL OFF (ausserhalb Militärflugdienstzeiten)
   - AWY (Airway) - Luftstrassen
   - IFR (Instrument Flight Rules) - Instrumentenflug
   - VFR (Visual Flight Rules) - Sichtflug
@@ -216,6 +234,16 @@ Photometeore
   - LS-D (Danger) - Gefahrengebiete
   - LS-R (Restricted) - Flug-/Luftbeschränkungsgebiete
   - LS-P (Prohibited) - Sperrgebiete/Flugverbotszonen
+- AGL (Height Above Ground Level)
+- AMSL (Height Above Mean Sea Level)
+- FL (Flight Level, expressed in hundreds of feet) - FL-195 ≃ 195 x 0.3 x 100 =
+  5950m.ü.M (but depends on pressure)
+- GND (Ground)
+- [H24](https://de.wikipedia.org/wiki/Abk%C3%BCrzungen/Luftfahrt/E%E2%80%93K#H) -
+  Continuous day and night service, continuous round-the-clock operation (region
+  is always active)
+- HX - Not Permanently Active; No specific working/operational hours, can be
+  activated withing 30min
 
 ## Material Science
 
