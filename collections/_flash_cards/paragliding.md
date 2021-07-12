@@ -229,6 +229,8 @@ B] oberhalb FL100
   - AWY (Airway) - Luftstrassen
   - IFR (Instrument Flight Rules) - Instrumentenflug
   - VFR (Visual Flight Rules) - Sichtflug
+    ([eVFR Manual/guide](https://www.skybriefing.com/evfr-manual-gen))
+    - VMC (Visual Meteorological Conditions)
   - LS = Switzerland according to
     [ICAO Code](https://en.wikipedia.org/wiki/List_of_airports_by_ICAO_code:_L#LS_%E2%80%93_Switzerland)
   - LS-D (Danger) - Gefahrengebiete
@@ -243,7 +245,7 @@ B] oberhalb FL100
   Continuous day and night service, continuous round-the-clock operation (region
   is always active)
 - HX - Not Permanently Active; No specific working/operational hours, can be
-  activated withing 30min
+  activated within 30min
 
 ## Material Science
 
