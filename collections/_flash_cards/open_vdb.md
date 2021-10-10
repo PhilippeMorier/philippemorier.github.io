@@ -44,6 +44,79 @@ tags: dynamic sparse volumetric data tree tile voxel grid
   - `Accessor` are used to amortize the overhead of slow lookup into the
     `mRootTable` (hash-map) by means of reusing cached child nodes.
 
+```
+                                         openVDB
+
+
+┌─────────────┐                      ┌─────────────┐                       ┌─────────────┐
+│ Grid 1      │                      │ Grid 2      │                       │ Grid 3      │
+├─────────────┤                      ├─────────────┤                       ├─────────────┤
+│ Transform 1 │12345678901234567890  │ Transform 2 │12345678901234567890   │ Transform 3 │
+│             │                      │             │                       │             │
+│ TreeRef     │                      │ TreeRef     │                       │ TreeRef     │
+└──────┬──────┘                      └──────┬──────┘                       └──────┬──────┘
+       │                                    │                                     │
+       └────────────────────────────────────┼─────────────────────────────────────┘
+                                            │
+                                            ▼
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                        │
+│                                              ┌──────────┐                              │
+│                                              │          │                              │
+│                                              │ RootNode │    HashMap                   │   Background Value, empty voxel value
+│  Level 3                                     │          │                              │
+│                                              └────┬─────┘                              │
+│                                                   │                                    │
+│                                         ┌─────────┘                                    │
+│                                         ▼                                              │
+│                               ┌──────────────────┐                                     │
+│                               │    InnerNode     │           32x16x8 (4096) Voxels     │
+│  Level 2                      │                  │ x Int32                             │   Tile Value, set to single value if
+│                               │ 1234567890123456 │           per Dimension/Side        │   child nodes voxels have all the same
+│                               │ 1234567890123456 │                                     │   value, i.e. complete tile is filled
+│                               └─────────┬────────┘                                     │
+│                                         │                                              │
+│                                 ┌───────┘                                              │   non-leaf nodes store either a tile value
+│                                 ▼                                                      │   or a child node at each grid position
+│                        ┌──────────────────┐                                            │
+│                        │    InnerNode     │                                            │
+│  Level 1               │                  │ x 32             16x8 Voxel per Dimension  │   Tile Value
+│                        │ 1234567890123456 │                                            │
+│                        └────────┬─────────┘                                            │
+│                                 │                                                      │
+│                   ┌─────────────┘                                                      │
+│                   ▼                                                                    │
+│              ┌──────────┐                                                              │
+│              │ LeafNode │                                                              │
+│  Level 0     │          │ x 16                               8 Voxel per Dimension     │   Voxel Value, single value
+│              │ 12345678 │                                                              │
+│              └──────────┘                                                              │
+│                                                                                        │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+
+ Prune: replace full child node with one tile value representing the same volume,
+ but more sparsely.
+
+ Iterators visit (in)active or all voxels
+
+ Value iterators travers entire tree visiting
+ eachavalue (tileworavoxel)eexactly once.
+
+ Leaf iterator visits each leaf node exactly
+ once (used for narrow-band voxel operations).
+
+ A node iterator traverses a tree in depth-first order,
+ starting from its root, and visits each node exactly once.
+
+ Node value iterator visits the values (active, inactive or both) stored in a single
+ RootNode, InternalNode or LeafNode, whereas a node child iterator visits the children
+ of a single root or internal node.
+
+ Value accessor: caches tree traversal path from last voxel accessor. When accessing
+ a neighboring voxel performs a bottom-up traversal lookup (i.e. goes up to first
+ common parent node). This increases performance when iterating over voxels.
+```
+
 ### When Manipulating data
 
 When manipulating data in OpenVDB, the three essential objects are
