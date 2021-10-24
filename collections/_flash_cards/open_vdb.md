@@ -45,6 +45,8 @@ tags: dynamic sparse volumetric data tree tile voxel grid
     `mRootTable` (hash-map) by means of reusing cached child nodes.
 
 ```
+Created with https://asciiflow.com/
+
                                          openVDB
 
 
@@ -95,7 +97,7 @@ tags: dynamic sparse volumetric data tree tile voxel grid
 └────────────────────────────────────────────────────────────────────────────────────────┘
 
  Prune: replace full child node with one tile value representing the same volume,
- but more sparsely.
+ but more sparselynull(reducing memory footprint).
 
  Iterators visit (in)active or all voxels
 
@@ -115,6 +117,9 @@ tags: dynamic sparse volumetric data tree tile voxel grid
  Value accessor: caches tree traversal path from last voxel accessor. When accessing
  a neighboring voxel performs a bottom-up traversal lookup (i.e. goes up to first
  common parent node). This increases performance when iterating over voxels.
+
+ narrow-band level set: neighbourhood of level set is interesting, "signed distance field" -> inside/outside level set?
+ https://youtu.be/RDUH2412ZU0
 ```
 
 ### When Manipulating data
