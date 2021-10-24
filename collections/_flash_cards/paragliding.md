@@ -31,6 +31,7 @@ tags: glider aircraft flying parachute
   - Tropopause
   - Isotherm
   - [Inversion](<https://en.wikipedia.org/wiki/Inversion_(meteorology)>)
+    - Boden- vs. Höheninversion
   - [Taupunkt](https://de.wikipedia.org/wiki/Taupunkt#Meteorologie)
   - Adiabatischer Temperaturgradient (°C/m)
     - [Warum nimmt die Temperatur mit der Höhe ab?](https://www.meteoschweiz.admin.ch/home/wetter/wetterbegriffe/temperaturabnahme-in-der-hoehe.html)
@@ -80,10 +81,38 @@ tags: glider aircraft flying parachute
 - convection: vertical transport (vertical advection)
 - [temperature inversion](https://youtu.be/Dk9VHHFUbqo): Usually higher air is
   colder than lower air. If warmer air is above colder air, it is an inversion.
+  The temperature gradient is positive (e.g.: 1°C/100m).
+- Isothermie: The temperature gradient is 0°C/100m
+- [Luv- und Leethermik](https://www.dhv.de/fileadmin/user_upload/files/2015/Artikel_Sicherheit/Artikel_Meteo/2015_192_thermik_teil_7.pdf)
+- [Umkehrthermik](https://de.wikipedia.org/wiki/Umkehrthermik)
+- [Rückseitenwetter](https://de.wikipedia.org/wiki/R%C3%BCckseitenwetter)
+- [Kalt- und Warmfrontokklusion](<https://de.wikipedia.org/wiki/Okklusion_(Meteorologie)>)
+- [Warmsektor](https://de.wikipedia.org/wiki/Warmsektor)
+- [Turbulence Types](https://www.weather.gov/media/zhu/ZHU_Training_Page/turbulence_stuff/turbulence3/turbulence.pdf)
+  - [Low-level turbulence (LLT)](https://www.aos.wisc.edu/~aos152/lesson11/content.html)
+    - Mechanical: a LLT that results when airflow is hindered by surface
+      friction or an obstruction. It occurs because friction slows the wind in
+      the lowest layers causing the air to turn over in turbulent eddies which
+      can cause fluctuations in winds and vertical velocities.
+      - [wind shear](http://www.wikidelta.com/images/pdf/turbulences-sous-le-vent-deltaplane-parapente-08-08_52-55_SG.pdf)
+      - [Windscherung](http://www.gerd-pfeffer.de/zirk_windscherung.html)
+        scherungsbedingte: sich zwei benachbarte Luftmassen in verschiedener
+        Richtung und/oder mit verschiedener Geschwindigkeit verschieben und sich
+        dabei aneinander reiben.
+    - Thermal: a LLT produced by dry convection. Typically, a daytime
+      phenomenon, it occurs over land under fair weather conditions. As solar
+      radiation heats the ground during the morning and afternoon generating
+      thermals that move away from the ground, creating chaotic patterns that
+      produce LLT.
+  - Turbulence near thunderstorms (TNT)
+  - Clear-air turbulence above 15,000 ft (CAT)
+  - Mountain wave turbulence (MWT)
 
 ### Clouds
 
 [Level][form]
+
+https://whatsthiscloud.com/
 
 ![Clouds Atlas](https://upload.wikimedia.org/wikipedia/commons/b/bf/Clouds_Atlas2.png 'Cloud Atlas')
 ![Cloud Identification Guide](https://cloudatlas.wmo.int/images/cloud_identification_guide.png 'Cloud Atlas')
@@ -195,6 +224,9 @@ Photometeore
 - [Meteo Centrale - Föhn & Bise](http://www.meteocentrale.ch/de/wetter/foehn-und-bise/foehn.html)
 - [Emagramm](https://www.meteoschweiz.admin.ch/home/mess-und-prognosesysteme/atmosphaere/radiosondierung.html)
   - [Explanation](http://montagsflieger.ch/wp/wp-content/uploads/2017/04/Emagramm-final-2.pdf)
+  - https://youtu.be/DY5Tw8hDurY
+  - https://meteo-parapente.com/
+  - https://www.windy.com/sounding/47.314/8.478?47.168,8.527,11,m:eX0agph
 
 ## Law
 
