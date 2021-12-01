@@ -19,6 +19,8 @@ tags: software project architecture process environment tools
   - TypeScript, CSS, HTML
   - Prettier, EsLint, StyleLint
 
+How to integrate/run these in IDE on save?
+
 ### CI/CD
 
 - GitHub Actions
@@ -34,6 +36,19 @@ tags: software project architecture process environment tools
 - featureflagservices.io
 
 ### Error reporting by user
+
+### API
+
+- How to "share" interface (JsonSchema, openAPI, TypeScript)?
+
+### Domain Models
+
+- Are models/types from backend kept the same in UI or are they converted to
+  different types. I.e. do presentational component use API types or their own?
+
+### Confirmation/alerts
+
+- error from backend API call (#SnackBar)
 
 ### Development Process
 
