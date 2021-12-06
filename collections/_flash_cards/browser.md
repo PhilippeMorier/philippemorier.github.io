@@ -9,3 +9,4 @@ tags: www http event loop single threaded web api callstack
 - [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 - [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
 - [Concurrency model and the event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- [Christian Heilmann Developer Tools Secrets That Shouldn't Be Secrets](https://youtu.be/q_qzHzIVxw4)

@@ -8,6 +8,7 @@ tags: software project architecture process environment tools
 
 - E2E test (user scenario, generating (time-depending) test data)
 - Component test (test component or multiple components as blackbox)
+  - Storybook: challenge testing `@Output` and service calls in Cypress tests
 - Unit test (test a single/smaller function/logic)
 - Visual test (detect visual/css changes)
 - Performance test (did a change significantly decrease the speed)
@@ -45,6 +46,8 @@ How to integrate/run these in IDE on save?
 
 - Are models/types from backend kept the same in UI or are they converted to
   different types. I.e. do presentational component use API types or their own?
+
+### ORM
 
 ### Confirmation/alerts
 
