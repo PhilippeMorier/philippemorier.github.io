@@ -4,7 +4,7 @@ definition: Define the scope of a task/project
 tags: scope task problem kick-off project management
 ---
 
-- [Auftragsklarung](https://www.projektmanagementhandbuch.de/handbuch/projektinitiierung/auftragsklaerung/)
+- [Auftragsklärung](https://www.projektmanagementhandbuch.de/handbuch/projektinitiierung/auftragsklaerung/)
 
 - goals/target (non-target)
 - why/motivation
