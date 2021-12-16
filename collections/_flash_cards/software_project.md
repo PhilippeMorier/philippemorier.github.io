@@ -42,6 +42,10 @@ How to integrate/run these in IDE on save?
 
 - How to "share" interface (JsonSchema, openAPI, TypeScript)?
 
+### Authentication / Login
+
+### Maintaining / Updating dependencies
+
 ### Domain Models
 
 - Are models/types from backend kept the same in UI or are they converted to
