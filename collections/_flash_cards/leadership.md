@@ -20,4 +20,4 @@ hinaus führt zu Reibereien. Unklare Kompetenzen verursachen Unsicherheit.
 
 ## Auftragsklärung
 
-- siehe [Task Scoping](task_scoping.md)
+- siehe [Task Scoping](task_scoping.html)
