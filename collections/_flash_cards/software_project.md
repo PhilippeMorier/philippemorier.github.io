@@ -18,7 +18,7 @@ tags: software project architecture process environment tools
 
 - linting
   - TypeScript, CSS, HTML
-  - Prettier, EsLint, StyleLint
+  - Prettier, EsLint (Storybook rules), StyleLint
 
 How to integrate/run these in IDE on save?
 
