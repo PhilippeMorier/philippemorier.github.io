@@ -53,6 +53,9 @@ tags: glider aircraft flying parachute
   - https://paraglidingearth.com/
   - https://www.dwd.de/DE/leistungen/opendata/opendata.html
     - https://opendata.dwd.de/
+  - Typische Wetterlagen im Alpenraum
+    - [Artikel als PDF](https://www.bundespublikationen.admin.ch/cshop_mimes_bbl/8C/8CDCD4590EE41ED6A587EE1148622696.pdf)
+    - [Bilder](https://www.meteoschweiz.admin.ch/home/service-und-publikationen/publikationen.subpage.html/de/data/publications/2015/8/typische-wetterlagen-im-alpenraum.html)
 
 ### Air
 
