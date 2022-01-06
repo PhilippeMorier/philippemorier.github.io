@@ -22,37 +22,43 @@ tags: paragliding tracker gps ogn esp idf ttgo t-beam
    - source esp-idf with `source ~/esp-idf/export.sh` in order to be able to run
      `make` command
 
-   - `/dev/ttyUSB0` is not available on MacOS, it is `/dev/tty.SLAB_USBtoUART`
-     change the `--port` param to use `/dev/tty.SLAB_USBtoUART` in the following
-     flash command:
+   - use `ls /dev/tty* | grep usb` to discover serial ports (e.g. when TTGO
+     connected via USB-C adapter)
+   - flash with proper port name:
+     `make flash ESPPORT=/dev/tty.usbserial-0212BE43`
 
-     ```bash
-     python /Users/philippe/git/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x1000 /Users/philippe/git/esp32-ogn-tracker/build/bootloader/bootloader.bin 0x10000 /Users/philippe/git/esp32-ogn-tracker/build/app-template.bin 0x8000 /Users/philippe/git/esp32-ogn-tracker/build/partitions.bin
-     ```
+   - AFAIK this is not needed if above step is applied
 
-   - use `ls /dev/tty.*` to discover serial ports
+     - `/dev/ttyUSB0` is not available on MacOS, it is `/dev/tty.SLAB_USBtoUART`
+       change the `--port` param to use `/dev/tty.SLAB_USBtoUART` in the
+       following flash command:
 
-   - `brew install minicom`
-   - `man minicom` // shows add the bottom the path to `minirc.dfl`
-     (`/usr/local/Cellar/minicom/2.8/etc`) `/usr/local/Cellar/minicom/2.8/etc/`
-     - `/dev/tty.SLAB_USBtoUART` OR
-     - `/dev/tty.usbserial-0212BE43`
-     - edit `minirc.dfl` to set port, baudrate and turn hardware and software
-       handshake OFF
        ```bash
-       pu lock /usr/local/Cellar/minicom/2.8/var
-       pu escape-key Escape (Meta)
-       pr port             /dev/tty.SLAB_USBtoUART
-       pu baudrate         115200
-       pu rtscts           No
-       pu xonxoff          No
+       python /Users/philippe/git/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x1000 /Users/philippe/git/esp32-ogn-tracker/build/bootloader/bootloader.bin 0x10000 /Users/philippe/git/esp32-ogn-tracker/build/app-template.bin 0x8000 /Users/philippe/git/esp32-ogn-tracker/build/partitions.bin
        ```
-     - connect with `minicom`
-       - Ctrl-C - lists internal state, internal log files and current parameter
-         values.
-       - Ctrl-L - list internal log files
-       - Ctrl-V - hold the NMEA stream for 1 min
-       - Ctrl-X - restarts the system
+
+   -`brew install minicom` -`man minicom` // shows add the bottom the path to
+   `minirc.dfl` (`/usr/local/Cellar/minicom/2.8/etc`)
+   `/usr/local/Cellar/minicom/2.8/etc/`
+
+   - `/dev/tty.SLAB_USBtoUART` OR
+   - `/dev/tty.usbserial-0212BE43`
+   - edit `minirc.dfl` to set port, baudrate and turn hardware and software
+     handshake OFF
+     ```bash
+     pu lock /usr/local/Cellar/minicom/2.8/var
+     pu escape-key Escape (Meta)
+     pr port             /dev/tty.SLAB_USBtoUART
+     pu baudrate         115200
+     pu rtscts           No
+     pu xonxoff          No
+     ```
+   - connect with `minicom`
+     - Ctrl-C - lists internal state, internal log files and current parameter
+       values.
+     - Ctrl-L - list internal log files
+     - Ctrl-V - hold the NMEA stream for 1 min
+     - Ctrl-X - restarts the system
 
 1. Install Android IDE with expressif
 
