@@ -37,7 +37,7 @@ tags: paragliding tracker gps ogn esp idf ttgo t-beam
        python /Users/philippe/git/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/tty.SLAB_USBtoUART --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x1000 /Users/philippe/git/esp32-ogn-tracker/build/bootloader/bootloader.bin 0x10000 /Users/philippe/git/esp32-ogn-tracker/build/app-template.bin 0x8000 /Users/philippe/git/esp32-ogn-tracker/build/partitions.bin
        ```
 
-   -`brew install minicom` -`man minicom` // shows add the bottom the path to
+   -`brew install minicom` -`man minicom` // shows the path at the bottom
    `minirc.dfl` (`/usr/local/Cellar/minicom/2.8/etc`)
    `/usr/local/Cellar/minicom/2.8/etc/`
 
