@@ -241,8 +241,8 @@ Photometeore
 | G      | 600m                                              | unkontrolliert | frei            | ↔︎1.5km ↕︎300m | 5km        | VFR & IFR |
 | G      | 300m                                              | unkontrolliert | frei            | keine          | 1.5km      | VFR       |
 
-1] Jura/Mittelland  
-2] Alpenraum  
+1] Jura/Mittelland @ 1013.25hPa  
+2] Alpenraum @ 1013.25hPa  
 a] MIL ON  
 b] MIL OFF  
 A] unterhalb FL100  
@@ -258,11 +258,13 @@ B] oberhalb FL100
 - [VLK - Verordnung des UVEK über Luftfahrzeuge besonderer Kategorien](https://fedlex.data.admin.ch/eli/cc/1994/3076_3076_3076)
 - [SHV Luftraumbroschüre 2021](https://www.shv-fsvl.ch/fileadmin/files/redakteure/Allgemein/Sicherheit/Luftraum/Luftraumbroschuere_2021.pdf)
 - [ATC](https://en.wikipedia.org/wiki/Air_traffic_control) (Air Traffic Control)
+- ICAE (International Civil Aviation Organization)
 - [ICAO Airspace classes](https://en.wikipedia.org/wiki/Airspace_class) (A - G)
   - CTR (Controlled Traffic Region) - Kontrollzone
   - TMA (Terminal Manoeuvring Area) - Nahverkehrsbereich
   - MIL ON (Militärflugdienstzeiten: Mo-Fr 7:30-12:05 & 13:15-17:05 or NOTAM)
   - MIL OFF (ausserhalb Militärflugdienstzeiten)
+  - RMZ (Radio Mandatory Zonen)
   - AWY (Airway) - Luftstrassen
   - IFR (Instrument Flight Rules) - Instrumentenflug
   - VFR (Visual Flight Rules) - Sichtflug
@@ -276,7 +278,8 @@ B] oberhalb FL100
 - AGL (Height Above Ground Level)
 - AMSL (Height Above Mean Sea Level)
 - FL (Flight Level, expressed in hundreds of feet) - FL-195 ≃ 195 x 0.3 x 100 =
-  5950m.ü.M (but depends on pressure)
+  5950m.ü.M @ 1013.25hPa (but depends on pressure, i.e. if current pressure >
+  1013.25hPa then > 5950m)
 - GND (Ground)
 - [H24](https://de.wikipedia.org/wiki/Abk%C3%BCrzungen/Luftfahrt/E%E2%80%93K#H) -
   Continuous day and night service, continuous round-the-clock operation (region
@@ -332,6 +335,7 @@ B] oberhalb FL100
 
 - http://skynomad.com/paragliding_articles.htm
 - https://www.papillon.de/fliegerhandbuch-paragliding-today.html
+- [Flugschule Oberbayern - Gernot Brabänder](https://www.youtube.com/user/noedi719/playlists)
 
 ## App
 
