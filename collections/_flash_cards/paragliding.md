@@ -320,6 +320,7 @@ B] oberhalb FL100
 - [5-point-check](https://de.wikipedia.org/wiki/5-Punkte-Check)
 - [3-phase-start](http://www.x-dreamfly.ch/wp-content/uploads/2017/05/Der-Drei-Phasen-Start.pdf)
 - [Gurtzeug](http://www.x-dreamfly.ch/wp-content/uploads/2017/05/Gurteug-Blog.pdf)
+- [Fähigkeitsprüfung für Hängegleiter-Piloten](https://www.shv-fsvl.ch/fileadmin/files/redakteure/Allgemein/Ausbildung/Weisungen/Gleitschirm_Pilot_DE.pdf)
 
 > Will Geordie Have His Cat Aboard Today.
 
