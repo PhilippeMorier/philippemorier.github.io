@@ -1,18 +1,44 @@
-theme: jekyll-theme-midnight
+remote_theme: sylhare/Type-on-Strap
+# theme: type-on-strap
 
 title: Philippe Morier
+avatar: assets/img/avatar.png
 description: Place to keep things.
+# favicon: assets/favicon.ico # Icon displayed in the tab
+color_theme: auto # color theme auto, dark or light
 
-#paginate: 10
+header_text: Place to keep things.
+footer_text: Copyright 2024
+header_feature_image: assets/img/header.jpeg
+# header_feature_image_responsive: true
+
+katex: true
+mermaid: dark
+
+# BLOG CONFIGURATION
+post_navigation: true
+paginate: 5
+paginate_path: "blog/page:num"
+plugins: [jekyll-remote-theme, jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+excerpt: true
 
 collections_dir: collections
 collections:
-  flash_cards:
+  posts:
     output: true
+    permalink: /:collection/:year/:month/:day/:title
+  portfolio: # Use portfolio collection for cards so that tags from cards get also processed
+    output: true
+    permalink: /cards/:title
 
 defaults:
   - scope:
-      path: 'collections/_flash_cards'
-      type: 'flash_cards'
+      path: ""
+      type: "posts"
     values:
-      layout: flash_card
+      layout: "post"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "page"

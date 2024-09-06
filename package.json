@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "prettier:write": "yarn prettier --write --config ./.prettierrc '{*,collections/**/*}.{md,ts}'",
-    "prettier:check": "yarn prettier --check --config ./.prettierrc '{*,collections/**/*}.{md,ts}'"
-  },
-  "devDependencies": {
-    "prettier": "1.18.2"
-  }
-}

@@ -1,6 +1,6 @@
 ---
 title: Kubernetes
-definition:
+definition: A container orchestration system for automating software deployment, scaling, and management.
 tags: container containerization docker
 ---
 

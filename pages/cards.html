@@ -1,0 +1,25 @@
+---
+layout: page
+title: Cards
+permalink: /cards
+position: 2
+feature-img: "assets/img/feature/cards.jpeg"
+---
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for card in site.portfolio -%}
+    <tr>
+      <td><a href="{{ card.url }}">{{ card.title }}</a></td>
+      <td>{{ card.definition }}</td>
+    </tr>
+    {% endfor -%}
+  </tbody>
+</table>
