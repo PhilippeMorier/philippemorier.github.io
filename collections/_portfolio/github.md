@@ -3,7 +3,7 @@ title: GitHub
 definition:
   Company that provides hosting for software development version control using
   Git
-tags: git vcs
+tags: git
 ---
 
 - [Refined GitHub](https://github.com/sindresorhus/refined-github#-refined-github)
@@ -16,13 +16,13 @@ tags: git vcs
   [Scripty](https://scripty.abhisheksatre.com/)
 
   ```javascript
-  Notification.requestPermission().then(permission => {
-    console.log('Notifications', permission, '!');
+  Notification.requestPermission().then((permission) => {
+    console.log("Notifications", permission, "!");
   });
 
   setTimeout(() => location.reload(), 30 * 1000);
 
-  document.addEventListener('visibilitychange', function() {
+  document.addEventListener("visibilitychange", function () {
     if (!document.hidden) {
       saveNotificationCount();
       checkIfNotifications();
@@ -32,35 +32,35 @@ tags: git vcs
   checkIfNotifications();
 
   function saveNotificationCount() {
-    console.log('Save', getNotificationCount());
-    window.localStorage.setItem('notificationCount', getNotificationCount());
+    console.log("Save", getNotificationCount());
+    window.localStorage.setItem("notificationCount", getNotificationCount());
   }
 
   function getNotificationCount() {
-    return document.querySelectorAll('li.notification-unread').length;
+    return document.querySelectorAll("li.notification-unread").length;
   }
 
   function getUnreadActions() {
     var unreadActionElements = document.querySelectorAll(
-      'li.notification-unread .flex-md-row-reverse > span',
+      "li.notification-unread .flex-md-row-reverse > span"
     );
     console.log(unreadActionElements);
 
     var actions = [];
-    unreadActionElements.forEach(element => actions.push(element.innerText));
+    unreadActionElements.forEach((element) => actions.push(element.innerText));
     console.log(actions);
   }
 
   function getLastNotificationCount() {
-    return window.localStorage.getItem('notificationCount');
+    return window.localStorage.getItem("notificationCount");
   }
 
   function checkIfNotifications() {
     if (getNotificationCount() > getLastNotificationCount()) {
-      changeFavicon('pending-dark');
+      changeFavicon("pending-dark");
       showNotification();
     } else {
-      changeFavicon('dark');
+      changeFavicon("dark");
     }
   }
 
@@ -73,15 +73,15 @@ tags: git vcs
 
   function showNotification() {
     var faviconDark =
-      'https://github.githubassets.com/favicons/favicon-dark.png';
-    var notification = new Notification('New unread notification', {
+      "https://github.githubassets.com/favicons/favicon-dark.png";
+    var notification = new Notification("New unread notification", {
       icon: faviconDark,
     });
   }
 
   function removeFavicons() {
-    removeFavicon('mask-icon');
-    removeFavicon('alternate icon');
+    removeFavicon("mask-icon");
+    removeFavicon("alternate icon");
   }
 
   function removeFavicon(name) {

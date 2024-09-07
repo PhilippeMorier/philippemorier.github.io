@@ -1,7 +1,7 @@
 ---
 title: SOAP
 definition: Simple Object Access Protocol
-tags: messaging protocol
+tags: protocol
 ---
 
 SOAP allows processes running on disparate operating systems (such as Windows

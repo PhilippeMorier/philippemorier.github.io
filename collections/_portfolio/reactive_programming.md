@@ -3,7 +3,7 @@ title: Reactive Programming
 definition:
   An asynchronous programming paradigm concerned with data streams and the
   propagation of change.
-tags: reactive programming reified transparent
+tags: paradigm
 ---
 
 [The Taxonomy of Reactive Programming](https://vsavkin.com/the-taxonomy-of-reactive-programming-d40e2e23dee4)

@@ -3,7 +3,7 @@ title: State Management
 definition:
   State management refers to the management of the state of one or more user
   interface controls.
-tags: state management Redux NgRx Mobx
+tags: state
 ---
 
 - [Simple state management in Angular with only Services and RxJS](https://dev.to/avatsaev/simple-state-management-in-angular-with-only-services-and-rxjs-41p8)

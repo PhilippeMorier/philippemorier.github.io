@@ -1,7 +1,7 @@
 ---
 title: Cypress.io
 definition: E2E testing framework
-tags: e2e test
+tags: test
 ---
 
 ## Learning
@@ -17,7 +17,7 @@ tags: e2e test
 
 ```javascript
 // Yield 'footer' within '.article'
-cy.get('.article').find('footer');
+cy.get(".article").find("footer");
 ```
 
 From
@@ -25,6 +25,6 @@ From
 
 ```javascript
 Cypress.Commands.add(`getTestElement`, (selector, options = {}) =>
-  cy.get(`[data-testid="${selector}"]`, options),
+  cy.get(`[data-testid="${selector}"]`, options)
 );
 ```

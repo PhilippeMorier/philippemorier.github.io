@@ -1,7 +1,7 @@
 ---
 title: CQRS
 definition: Command Query Responsibility Segregation
-tags: messaging protocol
+tags: pattern
 ---
 
 CQRS is an architectural pattern that separates reading and writing into two

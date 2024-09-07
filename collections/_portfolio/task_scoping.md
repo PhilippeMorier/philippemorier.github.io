@@ -1,7 +1,7 @@
 ---
 title: Task Scoping
 definition: Define the scope of a task/project
-tags: scope task problem kick-off project management
+tags: practice
 ---
 
 - [Auftragsklärung](https://www.projektmanagementhandbuch.de/handbuch/projektinitiierung/auftragsklaerung/)

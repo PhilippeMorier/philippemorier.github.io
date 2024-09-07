@@ -3,7 +3,7 @@ title: SOLID
 definition:
   Five design principles in object-oriented computer programming intended to
   make software designs more understandable, flexible and maintainable.
-tags: code smell dry wet
+tags: principle
 ---
 
 - **S**ingle Responsibility Principle (one reason to change)

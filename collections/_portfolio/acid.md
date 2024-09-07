@@ -1,7 +1,7 @@
 ---
 title: ACID
 definition: atomicity, consistency, isolation, durability
-tags: database transactions
+tags: database
 ---
 
 - **Atomicity** guarantees that each transaction is treated as a single "unit",

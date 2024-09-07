@@ -1,7 +1,7 @@
 ---
 title: Software Project
 definition: Aspects & requirement on a "perfect" project setup
-tags: software project architecture process environment tools
+tags: project architecture
 ---
 
 ### Testing

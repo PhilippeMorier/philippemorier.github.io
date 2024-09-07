@@ -1,7 +1,7 @@
 ---
 title: Stylus
 definition: Easily install themes and skins for many popular sites
-tags: usercss styles css themes skins custom
+tags: browser
 ---
 
 [Stylus Website](https://add0n.com/stylus.html)

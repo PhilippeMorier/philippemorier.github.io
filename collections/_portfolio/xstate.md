@@ -1,7 +1,7 @@
 ---
 title: XState
 definition: JavaScript state machines and statecharts
-tags: state machine statecharts
+tags: state
 ---
 
 - [XState](https://xstate.js.org/)

@@ -1,7 +1,7 @@
 ---
 title: Leadership
 definition: Leader Management Leadership
-tags: leader management leadership
+tags: psychology
 ---
 
 ## Stellenbeschreibung

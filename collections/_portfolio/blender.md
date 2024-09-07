@@ -1,9 +1,7 @@
 ---
 title: Blender
 definition: A free and open-source 3D computer graphics software toolset.
-tags:
-  animated films visual effects art 3D printed models motion graphics
-  interactive 3D applications
+tags: blender
 ---
 
 ### Donut Tutorial for learning the basics

@@ -3,7 +3,7 @@ title: Angular
 definition:
   Angular is a platform and framework for building client applications in HTML
   and TypeScript
-tags: angular framework typescript
+tags: framework
 ---
 
 - [Angular Architecture](https://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)

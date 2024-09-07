@@ -1,7 +1,7 @@
 ---
 title: OGN
 definition: Open Glider Network
-tags: paragliding tracker gps ogn esp idf ttgo t-beam
+tags: paragliding
 ---
 
 1. Install

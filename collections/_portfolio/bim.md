@@ -1,7 +1,7 @@
 ---
 title: BIM
 definition: Building Information Modelling
-tags: method process design construction
+tags: bim
 ---
 
 The BIM-method supports the collaboration between all stakeholders over the

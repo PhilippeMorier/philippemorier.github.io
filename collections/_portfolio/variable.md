@@ -1,7 +1,6 @@
 ---
 title: Variable
 definition:
-tags: scalar compound primitive reference variable type
 ---
 
 ## Scalar & Compound

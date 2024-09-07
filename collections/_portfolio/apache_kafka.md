@@ -1,7 +1,7 @@
 ---
 title: Apache Kafka
 definition: Distributed Streaming Platform
-tags: event stream message broker queue publish subscribe zookeeper
+tags: kafka
 ---
 
 - Messaging system (publish/subscribe pattern)

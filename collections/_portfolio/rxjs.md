@@ -1,7 +1,7 @@
 ---
 title: RxJS
 definition: Reactive Extensions For JavaScript
-tags: reactive observable
+tags: paradigm
 ---
 
 # Learning
@@ -78,7 +78,7 @@ straightforward JavaScript.
 ```javascript
 function subscribe(subscriber) {
   const intervalId = setInterval(() => {
-    subscriber.next('hi');
+    subscriber.next("hi");
   }, 1000);
 
   return function unsubscribe() {
@@ -86,7 +86,7 @@ function subscribe(subscriber) {
   };
 }
 
-const unsubscribe = subscribe({ next: x => console.log(x) });
+const unsubscribe = subscribe({ next: (x) => console.log(x) });
 
 // Later:
 unsubscribe(); // dispose the resources

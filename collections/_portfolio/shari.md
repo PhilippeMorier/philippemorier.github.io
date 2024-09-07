@@ -1,7 +1,7 @@
 ---
 title: SHARI
 definition: Shared Hydrated Available Retrieved Impacted
-tags: state management ngrx
+tags: state principle
 ---
 
 State belongs to the store if it is SHARI.

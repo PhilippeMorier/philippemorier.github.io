@@ -1,7 +1,7 @@
 ---
 title: Paragliding
 definition: Sport of flying paragliders
-tags: glider aircraft flying parachute
+tags: paragliding
 ---
 
 ## Table of Content
@@ -117,8 +117,8 @@ tags: glider aircraft flying parachute
 
 https://whatsthiscloud.com/
 
-![Clouds Atlas](https://upload.wikimedia.org/wikipedia/commons/b/bf/Clouds_Atlas2.png 'Cloud Atlas')
-![Cloud Identification Guide](https://cloudatlas.wmo.int/images/cloud_identification_guide.png 'Cloud Atlas')
+![Clouds Atlas](https://upload.wikimedia.org/wikipedia/commons/b/bf/Clouds_Atlas2.png "Cloud Atlas")
+![Cloud Identification Guide](https://cloudatlas.wmo.int/images/cloud_identification_guide.png "Cloud Atlas")
 
 #### Form/Shape
 

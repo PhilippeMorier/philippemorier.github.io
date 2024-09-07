@@ -1,7 +1,7 @@
 ---
 title: RAIL
 definition: User-centric performance model
-tags: user centric model response animation idle load
+tags: principle
 ---
 
 ## RAIL

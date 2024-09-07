@@ -1,7 +1,7 @@
 ---
 title: WARMED
 definition: write, agree, read, modify, execute, debug
-tags: code quality clean
+tags: practice
 ---
 
 - **Write** the code

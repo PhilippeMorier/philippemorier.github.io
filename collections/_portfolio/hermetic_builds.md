@@ -1,7 +1,7 @@
 ---
 title: Hermetic Builds
 definition: Identical results on different machines
-tags: hermetic build
+tags: ci
 ---
 
 Build tools must allow us to ensure consistency and repeatability. If two people

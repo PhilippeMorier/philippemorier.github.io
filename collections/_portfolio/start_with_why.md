@@ -1,7 +1,7 @@
 ---
 title: Start With Why
 definition: Book by Simon Sinek
-tags: what how why golden circle
+tags: psychology
 ---
 
 ![Golden Circle](https://simonsinek.com/wp-content/uploads/2018/10/SWW_Illustrations_GCandBio-e1538682737492.jpg)

@@ -1,7 +1,6 @@
 ---
 title: GIS
 definition: Geographic Information System
-tags: geographic information system map
 ---
 
 A geographic information system (GIS) is a framework for gathering, managing,

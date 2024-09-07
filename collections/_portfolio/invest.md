@@ -1,7 +1,7 @@
 ---
 title: INVEST
 definition: Independent, negotiable, valuable, estimable, small, testable PBIs
-tags: goal criteria smarter
+tags: practice
 ---
 
 - **I**ndependent: The PBI should be self-contained, in a way that there is no

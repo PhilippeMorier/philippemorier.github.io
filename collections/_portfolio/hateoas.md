@@ -1,7 +1,7 @@
 ---
 title: HATEOAS
 definition: Hypermedia As The Engine Of Application State
-tags: REST RESTful architecture
+tags: architecture
 ---
 
 HATEOAS is a constraint of the REST application architecture that keeps the

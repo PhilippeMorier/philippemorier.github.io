@@ -1,7 +1,7 @@
 ---
 title: Tree Generation
 definition: Procedural generation of trees
-tags: procedural generation tree model realistic creation rendering
+tags: procedural
 ---
 
 ## Parametric Approaches

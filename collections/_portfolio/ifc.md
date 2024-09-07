@@ -1,7 +1,7 @@
 ---
 title: IFC
 definition: Industry Foundation Classes
-tags: BIM buildingSMART
+tags: bim
 ---
 
 ## IFC EXPRESS file

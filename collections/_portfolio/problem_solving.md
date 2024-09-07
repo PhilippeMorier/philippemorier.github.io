@@ -1,7 +1,7 @@
 ---
 title: Problem-solving
 definition: Methods to find solutions to difficulties
-tags: problem-solving strategy
+tags: psychology
 ---
 
 ![problem solving wheel](https://assets.aboutkidshealth.ca/AKHAssets/iCanCopeSCD/bright_ideas_wheel_SCD_J4T.png)

@@ -3,7 +3,7 @@ title: OpenVDB
 definition:
   Hierarchical data structure and a large suite of tools for the efficient
   storage and manipulation of sparse volumetric data.
-tags: dynamic sparse volumetric data tree tile voxel grid
+tags: [data structure]
 ---
 
 **V**olumetric,  
